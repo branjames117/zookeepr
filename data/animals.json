@@ -127,6 +127,21 @@
         "anxious"
       ],
       "id": "12"
+    },
+    {
+      "name": "Boswell",
+      "species": "Chickaboo",
+      "diet": "piscivore",
+      "personalityTraits": [
+        "zany",
+        "anxious",
+        "loving"
+      ],
+      "id": "13"
+    },
+    {
+      "name": "Darlene",
+      "id": "jhgdja3ng2"
     }
   ]
 }
