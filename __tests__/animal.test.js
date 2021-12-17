@@ -7,6 +7,9 @@ const {
 } = require('../lib/animals.js');
 const { animals } = require('../data/animals');
 
+// mock the fs module so we don't create an actual animal in our json file
+jest.mock('fs');
+
 test('creates an animal object', () => {
   const animal = createNewAnimal(
     { name: 'Darlene', id: 'jhgdja3ng2' },
